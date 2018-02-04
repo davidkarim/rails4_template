@@ -16,3 +16,5 @@ docker run -p 8080:3000 \
 -v $(pwd):/myapp \
 -it dkarim/a_test rails s --binding=0.0.0.0
 ```
+Visit localhost:8080 to view the running Rails app.
+
